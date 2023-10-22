@@ -2,8 +2,8 @@ function searchTechnique() {
     var query = document.getElementById("search-bar").value.toLowerCase();
     var results = [];
     var mitreData = {
-        "T1001": "credential_access/lazagne_cred_dump.yml",
-        //"T1002": "subdirectory/sigma_rule_2.yaml",
+        "TA0006": "credential_access/lazagne_cred_dump.yml",
+        "TA0011": "command_and_control/win_telegram_api.yml",
         // Add more entries with subdirectories as needed
     };
 
@@ -25,7 +25,7 @@ function displayResults(results) {
     } else {
         results.forEach(function (result) {
             var resultDiv = document.createElement("div");
-            resultDiv.innerHTML = "<b>" + result.technique + "</b>: <a href='" + result.yamlFile + "'>View YAML</a>";
+            resultDiv.innerHTML = "<b>" + result.technique + "</b>: " + result.yamlFile;
             resultsDiv.appendChild(resultDiv);
         });
     }
