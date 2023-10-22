@@ -1,0 +1,9 @@
+/* Basic CSS styles for the search bar */
+#search-bar {
+    width: 300px;
+    padding: 10px;
+    margin: 20px;
+}
+#results {
+    margin: 20px;
+}
