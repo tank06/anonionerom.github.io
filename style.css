@@ -5,7 +5,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: red;
+    background-color: rgb(255, 255, 255);
 }
 
 /* Basic CSS styles for the search bar */
