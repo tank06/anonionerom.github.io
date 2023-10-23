@@ -9,6 +9,8 @@ function searchTechnique() {
     var mitreData = {
         "TA0006": ["credential_access/lazagne_cred_dump.yml","credential_access/win_reg_cred_dll.yml"],
         "TA0011": ["command_and_control/win_telegram_api.yml"],
+        "TA0005": ["proc_access_win_hack_sysmonente.yml", "proc_access_win_invoke_phantom.yml"],
+        "TA0010": ["net_connection_win_mega_nz.yml", "net_connection_win_ngrok_io.yml"]
         // Add more entries with subdirectories as needed
     };
 
